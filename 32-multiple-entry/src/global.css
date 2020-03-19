@@ -1,0 +1,44 @@
+body  {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #495057;
+}
+
+.wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 30px;
+}
+
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav a {
+  display: block;
+  padding: 5px 10px;
+  color: initial;
+}
+
+.main {
+  margin-bottom: 20px;
+  padding: 30px 0;
+}
+
+.footer {
+  padding: 5px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  color: #868e96;
+}

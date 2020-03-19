@@ -1,0 +1,14 @@
+{
+  "name": "03-mode",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}

@@ -1,0 +1,7 @@
+.post + .post {
+  border-top: 1px solid #eee;
+}
+
+.post h2 {
+  margin-bottom: 0;
+}

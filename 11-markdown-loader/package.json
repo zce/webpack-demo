@@ -1,0 +1,16 @@
+{
+  "name": "11-markdown-loader",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "html-loader": "^0.5.5",
+    "marked": "^0.7.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}

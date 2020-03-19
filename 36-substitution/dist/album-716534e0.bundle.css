@@ -1,0 +1,80 @@
+body  {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #495057;
+}
+
+.wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 30px;
+}
+
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav a {
+  display: block;
+  padding: 5px 10px;
+  color: currentColor;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  margin-bottom: 30px;
+}
+
+.main h2 {
+  width: 100%;
+  margin: 10px 0 50px;
+  text-align: center;
+  font-size: 3em;
+  opacity: 0.8;
+}
+
+.footer {
+  padding: 5px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  color: #868e96;
+}
+
+.album {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.photo img {
+  width: 200px;
+}
+
+.photo h3 {
+  padding: 0 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 20px;
+}
+

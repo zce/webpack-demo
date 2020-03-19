@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.photo img {
+  width: 200px;
+}
+
+.photo h2 {
+  padding: 0 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 20px;
+}
